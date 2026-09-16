@@ -1,0 +1,8 @@
+# Normalize line endings so Linux shells don't choke on CRLF (e.g. run_train.sh on AutoDL).
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.zip binary
+*.safetensors binary
+*.bin binary
