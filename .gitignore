@@ -1,0 +1,25 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- Secrets ----
+bot/.env
+.env
+
+# ---- Raw corpus (third-party game text, not redistributed) ----
+剧情文本/
+*.zip
+
+# ---- Generated data (rebuild with scripts/) ----
+data/*.jsonl
+data/*.json
+!data/README.md
+
+# ---- Model artifacts (several GB; keep locally or use Releases) ----
+output/*
+!output/README.md
+
+# ---- Runtime logs ----
+*.log
